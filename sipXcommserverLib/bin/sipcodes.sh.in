@@ -58,6 +58,9 @@ grep -c "482 Loop Detected" $1
 echo -e "\nChecking number of 483 Too Many Hops."
 grep -c "483 Too Many Hops" $1
 
+echo -e "\nChecking number of 486 Busy Here."
+grep -c "486 Busy Here" $1
+
 echo -e "\nChecking number of 500 Server Internal Error."
 grep -c "500 Server Internal Error" $1
 
